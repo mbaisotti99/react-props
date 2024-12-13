@@ -1,0 +1,12 @@
+
+/* BTN  */
+
+
+.btn{
+    background-color: orange;
+    padding: 15px;
+    width: fit-content;
+  
+    margin: 20px auto;
+    cursor: pointer;
+  }

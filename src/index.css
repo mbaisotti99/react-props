@@ -1,0 +1,38 @@
+/* General */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+img{
+  max-width: 100%;
+}
+
+.js{
+  background-color: green;
+}
+
+.css{
+  background-color: red;
+
+}
+
+.html{
+  background-color: blue;
+}
+
+
+
+
+
+
+
+
+

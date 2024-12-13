@@ -1,0 +1,29 @@
+
+/* CARD  */
+
+.card{
+    width: calc(100%/3);
+    border: 1px solid black;
+    min-height: 200px;
+    margin: 50px auto;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.425);
+  }
+  
+  .cardBody{
+    padding: 15px;
+  }
+  
+  .cardBody h2{
+    font-size: 28px;
+    text-align: center;
+    margin: 0 0 15px 0;
+  }
+  
+  
+  .card img{
+    border-radius: 15px 15px 0 0;
+    width: fit-content;
+  }
+  
