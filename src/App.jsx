@@ -1,6 +1,7 @@
 import Head from "./components/header.jsx"
 import Card from "./components/Card.jsx"
 import Foot from "./components/Footer.jsx"
+import TagList from "./components/TagList.jsx"
 
 import arr from "./assets/array.js"
 
@@ -27,6 +28,13 @@ function App() {
       <Head />
       <div className="container">
         {addCard()}
+      </div>
+      <hr />
+      <h2 className="listTitle">Lista Tags</h2>
+      <div className="tagListCont">
+      <TagList 
+      list={arr}
+      />
       </div>
       <Foot />
     </>)

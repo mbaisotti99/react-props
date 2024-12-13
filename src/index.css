@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+hr{
+  margin: 50px 0;
+}
+
 .container{
   width: 80%;
   margin: 0 auto;
@@ -15,24 +19,22 @@ img{
   max-width: 100%;
 }
 
-.js{
-  background-color: green;
+.tagsDiv{
+  display: flex;
+  justify-content: center;
 }
 
-.css{
-  background-color: red;
-
+.tagListCont{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0
 }
 
-.html{
-  background-color: blue;
+.listTitle{
+  text-align: center;
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
-
-
-
-
 
 
 

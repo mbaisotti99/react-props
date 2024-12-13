@@ -1,5 +1,26 @@
 .tag{
     width: fit-content;
     padding: 15px;
+    min-height: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px;
 }
 
+.js{
+    background-color: rgba(48, 131, 48, 0.603);
+  }
+  
+  .css{
+    background-color: rgba(177, 48, 48, 0.733);
+  
+  }
+  
+  .html{
+    background-color: rgba(54, 54, 131, 0.493);
+  }
+  
+  .php{
+    background-color: rgba(122, 45, 194, 0.637);
+  }
+  

@@ -1,18 +1,14 @@
 import style from "./style/cardTags.module.css"
 
-const Tags = (tagging) =>{
+const Tags = ({tagging}) =>{
     console.log(tagging);
     
-
-        for (let i = 0; i < tagging.length; i++){
-        let curTag = tagging[i]
-        return(
-        <div className={style.tag}>
-            <span>{curTag}</span>
+    return tagging.map((curTag, index) => 
+        <div className={`${style.tag} ${style[curTag] || ""}`} key={index}>
+            <span>{curTag.toUpperCase()}</span>
         </div>
-        )
-        }
-        
+    )
+
 
 }
 
